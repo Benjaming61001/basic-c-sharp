@@ -1,4 +1,4 @@
-namespace CSharpClass;
+namespace c_sharp_class;
 
 class Person
 {

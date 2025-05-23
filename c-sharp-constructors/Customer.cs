@@ -1,4 +1,4 @@
-﻿namespace CSharpConstructors;
+﻿namespace c_sharp_constructors;
 
 class Customer
 {
