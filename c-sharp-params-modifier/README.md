@@ -42,12 +42,28 @@ dotnet run
 ```
 
 ## expected output
+Add: 1
+Add: 3
 Add: 6
+Add: 1
+Add: 3
 Add: 6
+Subtract: 10
+Subtract: 5
 Subtract: 3
+Subtract: 10
+Subtract: 5
 Subtract: 3
+Multiply: 2
+Multiply: 6
 Multiply: 24
+Multiply: 2
+Multiply: 6
 Multiply: 24
+Divide: 20
+Divide: 4
 Divide: 2
+Divide: 20
+Divide: 4
 Divide: 2
 Cannot divide by zero.

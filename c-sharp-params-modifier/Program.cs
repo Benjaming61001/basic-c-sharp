@@ -6,16 +6,32 @@ class Program
   {
     try
     {
+      Console.WriteLine("Add: " + Calculator.Add(1));
+      Console.WriteLine("Add: " + Calculator.Add(1, 2));
       Console.WriteLine("Add: " + Calculator.Add(1, 2, 3));
+      Console.WriteLine("Add: " + Calculator.Add(new int[] { 1 }));
+      Console.WriteLine("Add: " + Calculator.Add(new int[] { 1, 2 }));
       Console.WriteLine("Add: " + Calculator.Add(new int[] { 1, 2, 3 }));
 
+      Console.WriteLine("Subtract: " + Calculator.Subtract(10));
+      Console.WriteLine("Subtract: " + Calculator.Subtract(10, 5));
       Console.WriteLine("Subtract: " + Calculator.Subtract(10, 5, 2));
+      Console.WriteLine("Subtract: " + Calculator.Subtract(new int[] { 10 }));
+      Console.WriteLine("Subtract: " + Calculator.Subtract(new int[] { 10, 5 }));
       Console.WriteLine("Subtract: " + Calculator.Subtract(new int[] { 10, 5, 2 }));
 
+      Console.WriteLine("Multiply: " + Calculator.Multiply(2));
+      Console.WriteLine("Multiply: " + Calculator.Multiply(2, 3));
       Console.WriteLine("Multiply: " + Calculator.Multiply(2, 3, 4));
+      Console.WriteLine("Multiply: " + Calculator.Multiply(new int[] { 2 }));
+      Console.WriteLine("Multiply: " + Calculator.Multiply(new int[] { 2, 3 }));
       Console.WriteLine("Multiply: " + Calculator.Multiply(new int[] { 2, 3, 4 }));
 
+      Console.WriteLine("Divide: " + Calculator.Divide(20));
+      Console.WriteLine("Divide: " + Calculator.Divide(20, 5));
       Console.WriteLine("Divide: " + Calculator.Divide(20, 5, 2));
+      Console.WriteLine("Divide: " + Calculator.Divide(new int[] { 20 }));
+      Console.WriteLine("Divide: " + Calculator.Divide(new int[] { 20, 5 }));
       Console.WriteLine("Divide: " + Calculator.Divide(new int[] { 20, 5, 2 }));
 
       Console.WriteLine("Divide by zero: " + Calculator.Divide(20, 0));
